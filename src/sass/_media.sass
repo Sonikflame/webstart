@@ -10,13 +10,27 @@
          &__subtitle
             font-size: 17px
             margin-bottom: 60px
+   .section
+      padding: 55px 0
+   .offer
+      &-block
+         padding-right: 50px
+      &__input
+         width: 100%
+         margin-bottom: 10px
+      &-text
+         max-width: 210px
 
+
+   
 @media ( max-width: 992px )
    .container
       width: 720px
    .hero
       &-block
          flex-direction: column
+      &-image
+         text-align: center
       &-text
          &__title
             font-size: 32px
@@ -26,11 +40,52 @@
          &__item
             &:last-child
                margin-bottom: 40px
+   .section
+      padding: 50px 0
+   .input
+      padding: 20px 26px
+   .offer
+      background-size: cover
+      &-block
+         padding-right: 25px
+      &__title
+         margin-top: 0
+         margin-bottom: 20px
+         font-size: 20px
+         line-height: 24px
+      &-info
+         margin-top: 22px
+      &-phone
+         width: 150px
+      &-text
+         max-width: 180px
 
+
+   
 @media ( max-width: 768px )
    .container
       width: 540px
+   .offer
+      background: #fff
+      &-block
+         width: 100%
+         padding-right: 0
+      &__title
+         max-width: 100%
+      &__subtitle
+         max-width: 100%
+      &-info
+         flex-direction: column
+         &__phone
+            margin-top: 10px
+      &-text
+         max-width: 100%
+         margin-bottom: 20px
+      &-phone
+         width: 100%
 
+
+   
 @media ( max-width: 576px )
    .container
       width: 90%

@@ -297,6 +297,19 @@ img {
     font-size: 17px;
     margin-bottom: 60px;
   }
+  .section {
+    padding: 55px 0;
+  }
+  .offer-block {
+    padding-right: 50px;
+  }
+  .offer__input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .offer-text {
+    max-width: 210px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -309,6 +322,9 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .hero-image {
+    text-align: center;
+  }
   .hero-text__title {
     font-size: 32px;
   }
@@ -318,11 +334,67 @@ img {
   .hero-list__item:last-child {
     margin-bottom: 40px;
   }
+  .section {
+    padding: 50px 0;
+  }
+  .input {
+    padding: 20px 26px;
+  }
+  .offer {
+    background-size: cover;
+  }
+  .offer-block {
+    padding-right: 25px;
+  }
+  .offer__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .offer-info {
+    margin-top: 22px;
+  }
+  .offer-phone {
+    width: 150px;
+  }
+  .offer-text {
+    max-width: 180px;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     width: 540px;
+  }
+  .offer {
+    background: #fff;
+  }
+  .offer-block {
+    width: 100%;
+    padding-right: 0;
+  }
+  .offer__title {
+    max-width: 100%;
+  }
+  .offer__subtitle {
+    max-width: 100%;
+  }
+  .offer-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offer-info__phone {
+    margin-top: 10px;
+  }
+  .offer-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .offer-phone {
+    width: 100%;
   }
 }
 
