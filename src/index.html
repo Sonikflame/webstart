@@ -6,6 +6,8 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Document</title>
    <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,7 +24,7 @@
                   <a href="tel:+7(495)42-251-31" class="navbar__phone">+7 (495) 42-251-31</a>
                </div>
                <!-- /.navbar__contacts -->
-               <button class="button navbar__button">Перезвоните мне</button>
+               <button class="button navbar__button" id="button">Перезвоните мне</button>
             </div>
             <!-- /.navbar__info -->
          </div>
@@ -98,8 +100,51 @@
          <!-- /.container -->
       </section>
       <!-- /.offer -->
+
+      <section class="section portfolio">
+         <div class="container">
+            <h2 class="section-title portfolio__title">Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах</h2>
+            <div class="slider">
+               <div class="slider__item"><img class="slider__image" src="img/portfolio/slide-1.jpg" alt="slide-1"></div>
+               <!-- /.slider__item -->
+               <div class="slider__item"><img class="slider__image" src="img/portfolio/slide-2.jpg" alt="slide-2"></div>
+               <!-- /.slider__item -->
+               <div class="slider__item"><img class="slider__image" src="img/portfolio/slide-3.jpg" alt="slide-3"></div>
+               <!-- /.slider__item -->
+               <div class="slider__item"><img class="slider__image" src="img/portfolio/slide-1.jpg" alt="slide-1"></div>
+               <!-- /.slider__item -->
+               <div class="slider__item"><img class="slider__image" src="img/portfolio/slide-2.jpg" alt="slide-2"></div>
+               <!-- /.slider__item -->
+               <div class="slider__item"><img class="slider__image" src="img/portfolio/slide-3.jpg" alt="slide-3"></div>
+               <!-- /.slider__item -->
+            </div>
+            <!-- /.slider -->
+            <div class="arrows portfolio__arrows">
+               <div class="arrows__left">
+                  <img src="img/portfolio/left-arrow.png" alt="Previous">
+               </div>
+               <div class="arrows__right">
+                  <img src="img/portfolio/right-arrow.png" alt="Next">
+               </div>
+            </div>
+         </div>
+         <!-- /.container -->
+      </section>
+      <!-- /.section portfolio -->
    </main>
 
-   
+
+   <div class="modal" id="modal">
+      <div class="modal-dialog">
+         <button class="modal-dialog__close" id="close">&times;</button>
+         <h4 class="modal-dialog__title">Окно</h4>
+      </div>
+      <!-- /.modal-dialog -->
+   </div>
+   <!-- /.modal -->
+
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+   <script src="js/main.js"></script>
+   <script src="js/slick.min.js"></script>
 </body>
 </html>
