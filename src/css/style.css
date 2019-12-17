@@ -60,6 +60,7 @@ img {
   font-weight: 700;
   font-size: 24px;
   text-align: center;
+  max-width: 500px;
 }
 
 .section-subtitle {
@@ -295,7 +296,6 @@ img {
 }
 
 .portfolio__title {
-  max-width: 500px;
   margin: auto;
   margin-bottom: 80px;
 }
@@ -314,6 +314,106 @@ img {
 
 .slider__image {
   margin: auto;
+}
+
+/* Стили блока с ценами */
+.price__card {
+  margin-bottom: 30px;
+}
+
+.price__title {
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.price__subtitle {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .card__image:before {
+  opacity: 1;
+}
+
+.card__title {
+  margin-top: 0;
+}
+
+.card__image {
+  position: relative;
+}
+
+.card__image::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffd200), to(rgba(196, 196, 196, 0)));
+  background-image: linear-gradient(to top, #ffd200 0%, rgba(196, 196, 196, 0) 100%);
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.card__picture {
+  display: block;
+}
+
+.card__text {
+  padding: 40px 0 50px;
+}
+
+.card__link {
+  display: inline-block;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  position: relative;
+}
+
+.card__link:hover:after {
+  height: 12px;
+}
+
+.card__link:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ffd200;
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /* Подключение модального окна */
@@ -381,6 +481,11 @@ img {
   .portfolio__title {
     margin-bottom: 55px;
   }
+  .cards {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 @media (max-width: 992px) {
@@ -437,6 +542,11 @@ img {
   }
   .portfolio__arrows {
     margin-top: 50px;
+  }
+  .cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
