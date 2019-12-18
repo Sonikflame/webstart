@@ -26,7 +26,15 @@
    .card
       &s
          justify-content: space-evenly
-
+   .step
+      flex-basis: 30%
+      margin-bottom: 30px
+      &:nth-child(3)
+         &::after
+            display: none
+      &s
+         &-block
+            justify-content: center
 
    
 @media ( max-width: 992px )
@@ -99,7 +107,15 @@
          margin-bottom: 20px
       &-phone
          width: 100%
-
+   .step
+      flex-basis: 50%
+      &:nth-child(2n)
+         &::after
+            display: none
+      &:nth-child(3)
+         &::after
+            display: block
+         
 
    
 @media ( max-width: 576px )
@@ -135,3 +151,12 @@
          margin-bottom: 45px
       &__arrows
          margin-top: 45px
+   .step
+      &:nth-child(3)
+         &::after
+            display: none
+      &::after
+         display: none
+      &s
+         &-block
+            flex-direction: column
