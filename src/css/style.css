@@ -58,9 +58,9 @@ img {
 .section-title {
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 45px;
   text-align: center;
-  max-width: 500px;
 }
 
 .section-subtitle {
@@ -234,6 +234,7 @@ img {
 .offer__title {
   max-width: 350px;
   line-height: 35px;
+  font-size: 24px;
   margin-bottom: 25px;
   text-align: left;
 }
@@ -296,6 +297,7 @@ img {
 }
 
 .portfolio__title {
+  max-width: 787px;
   margin: auto;
   margin-bottom: 80px;
 }
@@ -324,6 +326,7 @@ img {
 .price__title {
   margin: auto;
   margin-bottom: 50px;
+  max-width: 516px;
 }
 
 .price__subtitle {
@@ -465,6 +468,7 @@ img {
 .steps__title {
   margin: auto;
   margin-bottom: 50px;
+  max-width: 654px;
 }
 
 .steps__subtitle {
@@ -478,6 +482,80 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+/* Стили блока about */
+.about {
+  background-color: #ffd200;
+}
+
+.about-block {
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  max-width: 915px;
+}
+
+.about__text {
+  margin: auto;
+}
+
+/* Стили блока guarantee */
+.guarantee-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.guarantee-item {
+  position: relative;
+  max-width: 370px;
+}
+
+.guarantee__text {
+  position: absolute;
+  left: 25px;
+  top: 9px;
+  margin-right: 55px;
+}
+
+.guarantee__strong {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+}
+
+.agreement {
+  margin-bottom: 80px;
+}
+
+.agreement__title {
+  margin: auto;
+  margin-top: 143px;
+  margin-bottom: 130px;
+  max-width: 660px;
+}
+
+.agreement-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.agreement-item {
+  max-width: 290px;
+  text-align: center;
+}
+
+.agreement__text {
+  margin-top: 43px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 /* Подключение модального окна */
