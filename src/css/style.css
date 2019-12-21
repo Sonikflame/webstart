@@ -490,14 +490,14 @@ img {
 }
 
 .about-block {
-  font-size: 32px;
-  line-height: 50px;
   text-align: center;
   max-width: 915px;
 }
 
 .about__text {
   margin: auto;
+  font-size: 32px;
+  line-height: 45px;
 }
 
 /* Стили блока guarantee */
@@ -509,6 +509,8 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .guarantee-item {
@@ -545,6 +547,8 @@ img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .agreement-item {
@@ -641,6 +645,16 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .about__text {
+    font-size: 30px;
+  }
+  .guarantee-item {
+    max-width: 300px;
+  }
+  .agreement__title {
+    margin-bottom: 50px;
+    margin-top: 75px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -667,6 +681,10 @@ img {
   }
   .section {
     padding: 60px 0;
+  }
+  .section-title {
+    font-size: 27px;
+    line-height: 35px;
   }
   .input {
     padding: 20px 26px;
@@ -703,6 +721,33 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .about__text {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .guarantee-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .guarantee-item {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .guarantee-item:last-child {
+    margin-bottom: 0;
+  }
+  .agreement-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .agreement-item {
+    max-width: 366px;
+  }
+  .agreement__text {
+    margin: 30px 0 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -711,6 +756,10 @@ img {
   }
   .section {
     padding: 50px 0;
+  }
+  .section-title {
+    font-size: 25px;
+    line-height: 30px;
   }
   .offer {
     background: #fff;
@@ -751,11 +800,19 @@ img {
   .step:nth-child(3)::after {
     display: block;
   }
+  .about__text {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
     width: 90%;
+  }
+  .section-title {
+    font-size: 18px;
+    line-height: 1.2;
   }
   .navbar__contacts {
     display: none;
@@ -805,6 +862,10 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .about__text {
+    font-size: 18px;
+    line-height: 1.4;
   }
 }
 /*# sourceMappingURL=style.css.map */
