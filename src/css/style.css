@@ -64,20 +64,20 @@ button {
 .section-title {
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 45px;
   text-align: center;
 }
 
 .section-subtitle {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .input {
   border: 1px solid #dddddd;
   padding: 23px 26px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   border-radius: 10px;
 }
 
@@ -158,7 +158,7 @@ button {
 }
 
 .hero-text__title {
-  font-size: 41px;
+  font-size: 2.5625rem;
   line-height: 55px;
   margin-top: 37px;
   font-family: 'Museo Sans Bold', sans-serif;
@@ -167,7 +167,7 @@ button {
 
 .hero-text__subtitle {
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
   margin-bottom: 70px;
@@ -240,7 +240,7 @@ button {
 .offer__title {
   max-width: 350px;
   line-height: 35px;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 25px;
   text-align: left;
 }
@@ -272,7 +272,7 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 33px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .offer-info__phone {
@@ -392,7 +392,7 @@ button {
   font-weight: 700;
   text-decoration: none;
   color: #333333;
-  font-size: 16px;
+  font-size: 1rem;
   position: relative;
 }
 
@@ -502,7 +502,7 @@ button {
 
 .about__text {
   margin: auto;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 45px;
 }
 
@@ -564,7 +564,7 @@ button {
 
 .agreement__text {
   margin-top: 43px;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 24px;
 }
 
@@ -613,7 +613,7 @@ button {
 }
 
 .interview__title {
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 33px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
@@ -623,7 +623,7 @@ button {
 .interview__subtitle {
   display: block;
   margin-bottom: 85px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .interview-list {
@@ -652,7 +652,7 @@ button {
   text-align: center;
   margin-right: 33px;
   line-height: 31px;
-  font-size: 14px;
+  font-size: 0.875rem;
   width: 35px;
   height: 35px;
   border: 2px solid #333333;
@@ -664,7 +664,7 @@ button {
 }
 
 .form__title {
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 33px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
@@ -674,11 +674,11 @@ button {
 .form__subtitle {
   display: block;
   margin-bottom: 85px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .form__description {
-  font-size: 15px;
+  font-size: 0.9375rem;
   display: inline-block;
 }
 
@@ -704,7 +704,7 @@ button {
 .contacts__title {
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 1.4;
   margin-bottom: 100px;
 }
@@ -790,7 +790,7 @@ button {
 .modal-dialog__subtitle {
   display: block;
   margin-bottom: 50px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .modal-dialog__description {
@@ -798,7 +798,7 @@ button {
   max-width: 270px;
   margin: auto;
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .modal-dialog__phone {
@@ -806,7 +806,7 @@ button {
   font-weight: 700;
   text-decoration: none;
   color: #333333;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .modal-content {
@@ -836,7 +836,7 @@ button {
     padding: 45px 0;
   }
   .hero-text__title {
-    font-size: 35px;
+    font-size: 2.1875rem;
     line-height: 50px;
   }
   .hero-text__subtitle {
@@ -878,7 +878,7 @@ button {
             justify-content: center;
   }
   .about__text {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .guarantee-item {
     max-width: 300px;
@@ -894,7 +894,7 @@ button {
     padding-left: 30px;
   }
   .form__title {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 15px;
   }
   .form__subtitle {
@@ -904,14 +904,14 @@ button {
     padding-right: 30px;
   }
   .interview__title {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 15px;
   }
   .interview__subtitle {
     margin-bottom: 60px;
   }
   .interview-list__text {
-    font-size: 14px;
+    font-size: 0.875rem;
     max-width: 300px;
   }
   .interview-list__counter {
@@ -936,7 +936,7 @@ button {
     text-align: center;
   }
   .hero-text__title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .hero-text__subtitle {
     margin-bottom: 50px;
@@ -948,7 +948,7 @@ button {
     padding: 60px 0;
   }
   .section-title {
-    font-size: 27px;
+    font-size: 1.6875rem;
     line-height: 35px;
   }
   .input {
@@ -963,7 +963,7 @@ button {
   .offer__title {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
   }
   .offer-info {
@@ -987,7 +987,7 @@ button {
             justify-content: center;
   }
   .about__text {
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 40px;
   }
   .guarantee-block {
@@ -1026,7 +1026,7 @@ button {
     padding: 50px 0;
   }
   .section-title {
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 30px;
   }
   .offer {
@@ -1069,7 +1069,7 @@ button {
     display: block;
   }
   .about__text {
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 30px;
   }
   .brif {
@@ -1091,12 +1091,12 @@ button {
     padding-right: 0;
   }
   .interview__title {
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 15px;
     line-height: 1.4;
   }
   .interview__subtitle {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 49px;
   }
   .interview-list__item {
@@ -1112,16 +1112,16 @@ button {
     padding-left: 0;
   }
   .form__title {
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 15px;
     line-height: 1.4;
   }
   .form__subtitle {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 49px;
   }
   .form__description {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .map {
     width: 100%;
@@ -1141,7 +1141,7 @@ button {
   }
   .contacts__title {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
@@ -1150,7 +1150,7 @@ button {
     width: 90%;
   }
   .section-title {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.2;
   }
   .navbar__contacts {
@@ -1167,12 +1167,12 @@ button {
     padding: 45px 0;
   }
   .hero-text__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.4;
     margin-bottom: 15px;
   }
   .hero-text__subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 28px;
   }
   .hero-list__item {
@@ -1182,7 +1182,7 @@ button {
     margin-right: 12px;
   }
   .hero-list__text {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .portfolio__title {
     margin-bottom: 45px;
@@ -1203,7 +1203,7 @@ button {
             flex-direction: column;
   }
   .about__text {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.4;
   }
   .contacts__title {
